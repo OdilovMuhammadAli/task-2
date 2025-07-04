@@ -210,3 +210,29 @@ body {
   margin-top: 35px;
   width: 69px;
 }
+
+.bomba-small-box8:nth-child(3) {
+  background-color: rgb(163, 97, 97);
+  height: 30px;
+  margin-top: 35px;
+  width: 69px;
+}
+.box-11 {
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bomba-small-box11:first-child {
+  background-color: rgb(119, 13, 218);
+  height: 99px;
+  width: 89px;
+}
+
+.bomba-small-box11:nth-child(2) {
+  background-color: rgb(216, 16, 16);
+  height: 99px;
+  width: 60px;
+}
