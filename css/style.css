@@ -236,3 +236,55 @@ body {
   height: 99px;
   width: 60px;
 }
+
+.box-16 {
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bomba-small-box16:first-child {
+  background-color: rgb(23, 161, 36);
+  height: 99px;
+  width: 70px;
+}
+
+.bomba-small-box16:nth-child(2) {
+  background-color: rgb(45, 24, 24);
+  height: 99px;
+  width: 40px;
+}
+
+.bomba-small-box16:nth-child(3) {
+  background-color: rgb(43, 94, 77);
+  height: 99px;
+  width: 40px;
+}
+
+.box-21 {
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bomba-small-box21:first-child {
+  background-color: rgb(8, 214, 36);
+  height: 99px;
+  width: 60px;
+}
+
+.bomba-small-box21:nth-child(2) {
+  background-color: rgb(32, 146, 167);
+  height: 99px;
+  width: 30px;
+}
+.bomba-small-box21:nth-child(3) {
+  background-color: darkgreen;
+  width: 30px;
+  margin-left: 30px;
+  height: 99px;
+}
